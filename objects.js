@@ -4,6 +4,6 @@ function updatePlaylist(playlist,artist,songtitle) {
   playlist.artist = 'My Bloody Valentine'
 }
 function removeFromPlaylist(playlist,artistName) {
- delete playlist[artist]; 
+ delete playlist[artistName]; 
  return playlist
 }
